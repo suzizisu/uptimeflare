@@ -47,7 +47,7 @@ const workerConfig = {
     },
     // Example TCP Monitor
     {
-      id: 'test_tcp_monitor',
+      id: 'sg_tcp_monitor',
       name: 'SG',
       // `method` should be `TCP_PING` for tcp monitors
       method: 'TCP_PING',
@@ -56,7 +56,7 @@ const workerConfig = {
       timeout: 5000,
     },
     {
-      id: 'test_tcp_monitor',
+      id: 'jp_tcp_monitor',
       name: 'JP',
       // `method` should be `TCP_PING` for tcp monitors
       method: 'TCP_PING',
@@ -68,7 +68,7 @@ const workerConfig = {
   notification: {
     // [Optional] apprise API server URL
     // if not specified, no notification will be sent
-    appriseApiServer: "https://apprise.example.com/notify",
+    appriseApiServer: "https://uptimeflare-notice.vercel.app/notify",
     // [Optional] recipient URL for apprise, refer to https://github.com/caronc/apprise
     // if not specified, no notification will be sent
     recipientUrl: "tgram://5274879934:AAEOQn4q71bgPwKmPQDJLR4vxrMV1TZMfco/623981253",
