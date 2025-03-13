@@ -17,7 +17,7 @@ const workerConfig = {
     // Example HTTP Monitor
     {
       // `id` should be unique, history will be kept if the `id` remains constant
-      id: 'google_monitor',
+      id: 'blog_monitor',
       // `name` is used at status page and callback message
       name: 'My Blog',
       // `method` should be a valid HTTP Method
@@ -25,9 +25,9 @@ const workerConfig = {
       // `target` is a valid URL
       target: 'https://012456.xyz',
       // [OPTIONAL] `tooltip` is ONLY used at status page to show a tooltip
-      tooltip: 'This is a tooltip for this monitor',
+      tooltip: 'https://012456.xyz',
       // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
-      statusPageLink: 'https://example.com',
+      statusPageLink: 'https://012456.xyz',
       // [OPTIONAL] `expectedCodes` is an array of acceptable HTTP response codes, if not specified, default to 2xx
       expectedCodes: [200],
       // [OPTIONAL] `timeout` in millisecond, if not specified, default to 10000
