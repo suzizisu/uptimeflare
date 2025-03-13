@@ -3,8 +3,7 @@ const pageConfig = {
   title: "Suzizisu Status Page",
   // Links shown at the header of your status page, could set `highlight` to `true`
    links: [
-    {     },
-    {     },
+
   ],
 }
 
