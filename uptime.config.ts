@@ -55,6 +55,15 @@ const workerConfig = {
       target: '[2407:cdc0:d010:2508::]:39255',
       timeout: 5000,
     },
+    {
+      id: 'test_tcp_monitor',
+      name: 'JP',
+      // `method` should be `TCP_PING` for tcp monitors
+      method: 'TCP_PING',
+      // `target` should be `host:port` for tcp monitors
+      target: '45.66.218.105:53810',
+      timeout: 5000,
+    }, 
   ],
   notification: {
     // [Optional] apprise API server URL
@@ -62,7 +71,7 @@ const workerConfig = {
     appriseApiServer: "https://apprise.example.com/notify",
     // [Optional] recipient URL for apprise, refer to https://github.com/caronc/apprise
     // if not specified, no notification will be sent
-    recipientUrl: "tgram://bottoken/ChatID",
+    recipientUrl: "tgram://5274879934:AAEOQn4q71bgPwKmPQDJLR4vxrMV1TZMfco/623981253",
     // [Optional] timezone used in notification messages, default to "Etc/GMT"
     timeZone: "Asia/Shanghai",
     // [Optional] grace period in minutes before sending a notification
