@@ -2,8 +2,9 @@ const pageConfig = {
   // Title for your status page
   title: "Suzizisu Status Page",
   // Links shown at the header of your status page, could set `highlight` to `true`
-  links: [
-    { link: 'https://012456.xyz', label: 'Wordpress' },
+   links: [
+    {     },
+    {     },
   ],
 }
 
@@ -19,7 +20,7 @@ const workerConfig = {
       // `id` should be unique, history will be kept if the `id` remains constant
       id: 'google_monitor',
       // `name` is used at status page and callback message
-      name: 'My Blog Monitor',
+      name: 'My Blog',
       // `method` should be a valid HTTP Method
       method: 'GET',
       // `target` is a valid URL
@@ -27,7 +28,7 @@ const workerConfig = {
       // [OPTIONAL] `tooltip` is ONLY used at status page to show a tooltip
       tooltip: 'This is a tooltip for this monitor',
       // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
-      statusPageLink: 'https://012456.xyz',
+      statusPageLink: 'https://example.com',
       // [OPTIONAL] `expectedCodes` is an array of acceptable HTTP response codes, if not specified, default to 2xx
       expectedCodes: [200],
       // [OPTIONAL] `timeout` in millisecond, if not specified, default to 10000
@@ -35,7 +36,7 @@ const workerConfig = {
       // [OPTIONAL] headers to be sent
       headers: {
         'User-Agent': 'Uptimeflare',
-        Authorization: 'Bearer YOUR_TOKEN_HERE',
+        Authorization: 'Bearer 8J948BAg8kfQqOe_tGRvDoqqm5pdFX26zO38Bqc5',
       },
       // [OPTIONAL] body to be sent
       body: 'Hello, world!',
@@ -48,11 +49,11 @@ const workerConfig = {
     // Example TCP Monitor
     {
       id: 'test_tcp_monitor',
-      name: 'Example TCP Monitor',
+      name: 'SG',
       // `method` should be `TCP_PING` for tcp monitors
       method: 'TCP_PING',
       // `target` should be `host:port` for tcp monitors
-      target: '1.2.3.4:22',
+      target: '[2407:cdc0:d010:2508::]:22',
       tooltip: 'My production server SSH',
       statusPageLink: 'https://example.com',
       timeout: 5000,
