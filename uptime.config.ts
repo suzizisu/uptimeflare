@@ -53,8 +53,8 @@ const workerConfig = {
       method: 'TCP_PING',
       // `target` should be `host:port` for tcp monitors
       target: '[2407:cdc0:d010:2508::]:39255',
-      tooltip: ,
-      statusPageLink: ,
+      tooltip:
+      statusPageLink:
       timeout: 5000,
     },
   ],
