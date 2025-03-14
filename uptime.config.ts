@@ -30,6 +30,21 @@ const workerConfig = {
       statusPageLink: 'https://012456.xyz',
 
     },
+    {
+      // `id` should be unique, history will be kept if the `id` remains constant
+      id: 'nezha_monitor',
+      // `name` is used at status page and callback message
+      name: 'My Blog',
+      // `method` should be a valid HTTP Method
+      method: 'GET',
+      // `target` is a valid URL
+      target: 'https://dash.937564.xyz',
+      // [OPTIONAL] `tooltip` is ONLY used at status page to show a tooltip
+      tooltip: 'https://dash.937564.xyz',
+      // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
+      statusPageLink: 'https://dash.937564.xyz',
+
+    },
     // Example TCP Monitor
     {
       id: 'sg_tcp_monitor',
