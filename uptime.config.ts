@@ -19,7 +19,7 @@ const workerConfig = {
       // `id` should be unique, history will be kept if the `id` remains constant
       id: 'blog_monitor',
       // `name` is used at status page and callback message
-      name: 'My Blog',
+      name: 'Wordpress',
       // `method` should be a valid HTTP Method
       method: 'GET',
       // `target` is a valid URL
@@ -58,6 +58,21 @@ const workerConfig = {
       tooltip: 'https://dash.937564.xyz',
       // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
       statusPageLink: 'https://dash.937564.xyz',
+
+    },
+    {
+      // `id` should be unique, history will be kept if the `id` remains constant
+      id: 'typecho_monitor',
+      // `name` is used at status page and callback message
+      name: 'Typecho',
+      // `method` should be a valid HTTP Method
+      method: 'GET',
+      // `target` is a valid URL
+      target: 'https://type.937564.xyz',
+      // [OPTIONAL] `tooltip` is ONLY used at status page to show a tooltip
+      tooltip: 'https://type.937564.xyz',
+      // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
+      statusPageLink: 'https://type.937564.xyz',
 
     },
     // Example TCP Monitor
