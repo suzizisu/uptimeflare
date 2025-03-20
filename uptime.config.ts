@@ -100,7 +100,7 @@ const workerConfig = {
       // `method` should be `TCP_PING` for tcp monitors
       method: 'TCP_PING',
       // `target` should be `host:port` for tcp monitors
-      target: '2a0f:7803:fac4:2c24::1:32858',
+      target: '[2a0f:7803:fac4:2c24::1]:32858',
       timeout: 5000,
     }, 
   ],
