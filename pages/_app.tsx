@@ -11,7 +11,7 @@ export default function App({ Component, pageProps }: AppProps) {
           .Header_header__072v2 {
             display: none !important;
           }
-          p.mantine-focus-auto.m-b6d8b162.mantine-Text-root {
+          p.mantine-focus-auto {
             display: none !important;
           }
         `}</style>
