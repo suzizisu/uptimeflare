@@ -7,6 +7,11 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <NoSsr>
       <MantineProvider defaultColorScheme="auto">
+        <style jsx global>{`
+          .Header_header__072v2 {
+            display: none !important;
+          }
+        `}</style>
         <Component {...pageProps} />
       </MantineProvider>
     </NoSsr>
