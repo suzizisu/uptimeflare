@@ -76,6 +76,8 @@ const workerConfig = {
 
     },
     // Example TCP Monitor
+
+    /*
     {
       id: 'sg_tcp_monitor',
       name: 'SG',
@@ -85,6 +87,7 @@ const workerConfig = {
       target: '[2407:cdc0:d010:2508::]:39255',
       timeout: 5000,
     },
+    
     {
       id: 'jp_tcp_monitor',
       name: 'JP',
@@ -94,7 +97,7 @@ const workerConfig = {
       target: '45.66.218.105:53810',
       timeout: 5000,
     }, 
-
+*/
   ],
   notification: {
     // [Optional] apprise API server URL
