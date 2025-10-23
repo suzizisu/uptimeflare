@@ -23,13 +23,13 @@ const workerConfig = {
       // `method` should be a valid HTTP Method
       method: 'GET',
       // `target` is a valid URL
-      target: 'https://suzi.one',
+      target: 'https://suzi.one/healthcheck.html',
       // [OPTIONAL] `tooltip` is ONLY used at status page to show a tooltip
       tooltip: 'https://suzi.one',
       // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
       statusPageLink: 'https://suzi.one',
       // [OPTIONAL] `expectedCodes` is an array of acceptable HTTP response codes, if not specified, default to 2xx
-      //expectedCodes: [200],
+      expectedCodes: [200],
       // [OPTIONAL] `timeout` in millisecond, if not specified, default to 10000
      // timeout: 10000,
       // [OPTIONAL] headers to be sent
@@ -40,7 +40,7 @@ const workerConfig = {
       // [OPTIONAL] body to be sent
      // body: 'Hello, world!',
       // [OPTIONAL] if specified, the response must contains the keyword to be considered as operational.
-      //responseKeyword: 'success',
+      responseKeyword: 'OK suzi.one v1',
       // [OPTIONAL] if specified, the check will run in your specified region,
       // refer to docs https://github.com/lyc8503/UptimeFlare/wiki/Geo-specific-checks-setup before setting this value
     //  checkLocationWorkerRoute: 'https://xxx.example.com',
