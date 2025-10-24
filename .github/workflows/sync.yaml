@@ -48,9 +48,8 @@ jobs:
           cp -r /tmp/latest/. .
           cp /tmp/origin.config.ts uptime.config.ts
           git add .
-          git commit -m "Sync latest code from upstream" || true
-          # ⬇️ 关键新增：避免远程更新导致 push 拒绝
-          git pull --rebase origin main || true
+          git diff --quiet && echo "No changes to commit" || git commit -m 
+          git pull --rebase origin main
           git push
       
       - name: Trigger deployment
