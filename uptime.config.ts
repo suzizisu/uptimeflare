@@ -23,11 +23,11 @@ const workerConfig = {
       // `method` should be a valid HTTP Method
       method: 'GET',
       // `target` is a valid URL
-      target: 'https://suzi.one/healthcheck.html',
+      target: 'https://su.012456.xyz/healthcheck.html',
       // [OPTIONAL] `tooltip` is ONLY used at status page to show a tooltip
-      tooltip: 'https://suzi.one',
+      tooltip: 'https://su.012456.xyz',
       // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
-      statusPageLink: 'https://suzi.one',
+      statusPageLink: 'https://su.012456.xyz',
       // [OPTIONAL] `expectedCodes` is an array of acceptable HTTP response codes, if not specified, default to 2xx
       expectedCodes: [200],
       // [OPTIONAL] `timeout` in millisecond, if not specified, default to 10000
@@ -45,6 +45,7 @@ const workerConfig = {
       // refer to docs https://github.com/lyc8503/UptimeFlare/wiki/Geo-specific-checks-setup before setting this value
     //  checkLocationWorkerRoute: 'https://xxx.example.com',
     },
+     /*
     {
       // `id` should be unique, history will be kept if the `id` remains constant
       id: 'artalk_monitor',
@@ -60,6 +61,7 @@ const workerConfig = {
       statusPageLink: 'https://artalk.012456.xyz',
 
     },
+    */
     {
       // `id` should be unique, history will be kept if the `id` remains constant
       id: 'nezha_monitor',
