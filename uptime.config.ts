@@ -45,23 +45,23 @@ const workerConfig = {
       // refer to docs https://github.com/lyc8503/UptimeFlare/wiki/Geo-specific-checks-setup before setting this value
     //  checkLocationWorkerRoute: 'https://xxx.example.com',
     },
-     /*
+     
     {
       // `id` should be unique, history will be kept if the `id` remains constant
-      id: 'artalk_monitor',
+      id: 'hot_monitor',
       // `name` is used at status page and callback message
-      name: 'Artalk',
+      name: 'Hot',
       // `method` should be a valid HTTP Method
       method: 'GET',
       // `target` is a valid URL
-      target: 'https://artalk.012456.xyz',
+      target: 'https://hota.012456.xyz',
       // [OPTIONAL] `tooltip` is ONLY used at status page to show a tooltip
-      tooltip: 'https://artalk.012456.xyz',
+      tooltip: 'https://hota.012456.xyz',
       // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
-      statusPageLink: 'https://artalk.012456.xyz',
+      statusPageLink: 'https://hota.012456.xyz',
 
     },
-    */
+    
     {
       // `id` should be unique, history will be kept if the `id` remains constant
       id: 'nezha_monitor',
